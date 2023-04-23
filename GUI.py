@@ -3,6 +3,7 @@ import tkinter.messagebox
 import customtkinter
 import mysql.connector
 from GUI_callbacks import *
+from connections import mydb
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("/Users/dannycampbell/Desktop/Senior Design/SHED_theme.json")  # Themes: "blue" (standard), "green", "dark-blue"

@@ -1,14 +1,7 @@
 import mysql.connector
 import tkinter
 import customtkinter
-
-mydb = mysql.connector.connect(
-  host="192.168.50.170",
-  user="python_ui",
-  password ="SHED2023!",
-  auth_plugin="mysql_native_password",
-  database="SHED"
-)
+from connections import mydb
 
 # def getTemp(): 
 #     try: 
